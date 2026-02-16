@@ -1,0 +1,36 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int arr[]={
+		    1,2,3,4,6,7
+		};
+		int target=5;
+		int i=0;
+		int j=arr.length-1;
+		boolean found=false;
+		
+		while(i<j)
+		{
+		    int sum=arr[i]+arr[j];
+		    
+		    if(sum == target)
+		    {
+		        System.out.println("Yes");
+		        found=true;
+		        break;
+		    }
+		    
+		    else if(sum<target)
+		    {
+		        i++;
+		    }
+		    else{
+		        j--;
+		    }
+		}
+		if(!found)
+		{
+		    System.out.println("No");
+		}
+	}
+}
