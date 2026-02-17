@@ -47,6 +47,8 @@ public class Main
 		    {
 		        arr[i]=0;
 		        arr[j]=1;
+                i++;
+                j--;
 		    }
 		    
 		}
