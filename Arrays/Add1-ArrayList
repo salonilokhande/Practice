@@ -1,0 +1,33 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    ArrayList<Integer>arr=new ArrayList<>();
+	    ArrayList<Integer>ass=new ArrayList<>();
+	    
+	    arr.add(1);
+	    arr.add(2);
+	    arr.add(9);
+	    System.out.println(arr);
+	    int carry=1;
+	    
+	    for(int i=arr.size()-1;i>=0;i--)
+	    {
+	        int ans=arr.get(i)+carry;
+	        
+	        if(ans<9)
+	        {
+	            ass.add(ans);
+	            carry=0;
+	        }
+	        else{
+	            ass.add(ans%10);
+	            carry=1;
+	        }
+	    }
+	    Collections.reverse(ass);
+	    System.out.println(ass);
+	    
+		
+	}
+}
