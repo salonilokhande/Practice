@@ -1,1 +1,9 @@
-Auxiliary Space is the extra space taken to solve the problem
+Auxiliary Space is the extra space taken to solve the problem.
+Space Complexity is total Space used in the code.
+
+Example:1  when we are using brute force tech.:
+for(int i....
+    for(int j....
+S.C=O(n)
+A.S=O(1)
+
