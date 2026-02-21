@@ -2,3 +2,6 @@
 Time complexity
 O(2n)==O(n)
 O(n/2)==O(n)
+
+O(100)=O(1)
+O(200)=0(1)
