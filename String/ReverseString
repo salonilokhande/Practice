@@ -1,0 +1,15 @@
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner kb=new Scanner(System.in);
+		String name=kb.nextLine();
+		
+		String reverse[]=name.split(" ");
+		for(int i=reverse.length-1;i>=0;i--)
+		{
+		    System.out.print(reverse[i]+" ");
+		}
+	}
+}
