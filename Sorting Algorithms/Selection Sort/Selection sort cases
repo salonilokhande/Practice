@@ -1,0 +1,66 @@
+🔹 How Selection Sort works (1-line reminder)
+
+In each pass, the smallest element is selected from the unsorted part and placed at its correct position.
+
+⏱️ Time Complexity (IMPORTANT)
+✅ Best Case
+
+Input: Array already sorted
+Example:
+
+[1, 2, 3, 4, 5]
+
+Explanation:
+
+Selection sort still compares all elements
+
+It does not stop early
+
+Number of comparisons remains the same
+
+Time Complexity:
+👉 O(n²)
+
+⚠️ Average Case
+
+Input: Random order
+Example:
+
+[3, 1, 4, 2, 5]
+
+Explanation:
+
+Full comparisons in each pass
+
+Some swaps happen
+
+Time Complexity:
+👉 O(n²)
+
+❌ Worst Case
+
+Input: Reverse sorted
+Example:
+
+[5, 4, 3, 2, 1]
+
+Explanation:
+
+Maximum number of swaps
+
+Full comparisons still required
+
+Time Complexity:
+👉 O(n²)
+
+🔁 Why all three cases are O(n²)?
+
+Because Selection Sort always scans the entire unsorted part, regardless of input order.
+
+📊 Comparison Summary Table
+Case	Time Complexity
+Best Case	O(n²)
+Average Case	O(n²)
+Worst Case	O(n²)
+Space Complexity	O(1)
+Stability	❌ Not Stable
