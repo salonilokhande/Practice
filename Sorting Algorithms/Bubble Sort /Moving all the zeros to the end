@@ -1,4 +1,11 @@
 //Moving all the zeros to the end , considering the order of remaining numbers remains as it 
+👉 If current element is 0, swap it with the next element
+👉 This pushes zero one step to the right
+👉 Repeating passes → all zeros reach the end
+👉 Order of non-zero elements is preserved ✅ (stable)
+
+
+
 import java.util.*;
 public class Main
 {
