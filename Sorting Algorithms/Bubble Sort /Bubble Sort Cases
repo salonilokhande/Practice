@@ -1,0 +1,56 @@
+Bubble Sort – Time Complexity Cases
+1️⃣ Worst Case
+
+Condition: When the array is sorted in descending order
+Example:
+[5, 4, 3, 2, 1]
+
+Explanation:
+
+Every element is compared with adjacent elements
+
+Maximum number of swaps happen
+
+Each pass pushes the largest element to the end
+
+Example steps:
+
+[5,4,3,2,1]
+→ [4,3,2,1,5]
+→ [3,2,1,4,5]
+→ [2,1,3,4,5]
+→ [1,2,3,4,5]
+
+Time Complexity:
+👉 O(n²)
+
+2️⃣ Best Case
+
+Condition: When the array is already sorted
+Example:
+[1, 2, 3, 4, 5]
+
+Explanation:
+
+No swaps are required
+
+With an optimized Bubble Sort (using a swap flag), the algorithm stops early
+
+Time Complexity:
+👉 O(n) (only if optimized)
+👉 Otherwise O(n²)
+
+3️⃣ Average Case
+
+Condition: Random order of elements
+Example:
+[3, 1, 4, 5, 2]
+
+Explanation:
+
+Some swaps are required
+
+Comparisons happen for every pass
+
+Time Complexity:
+👉 O(n²)
